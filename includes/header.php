@@ -279,7 +279,7 @@ $og_image  = $site_url . "/images/og-image.jpg";
 
     <nav class="nav-header" id="navbar">
         <div class="container nav-wrapper">
-            <a href="/" class="brand-logo">
+            <a href="/demo/daniells/" class="brand-logo">
                 <span class="title">Daniell's</span>
                 <span class="subtitle">Tree Removal & Pruning</span>
             </a>
