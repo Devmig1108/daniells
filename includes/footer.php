@@ -17,10 +17,10 @@
                 <div class="footer-col reveal-up" style="transition-delay: 0.2s;">
                     <h4>Our Services</h4>
                     <ul>
-                        <li><a href="ervotech.site/demo/daniells/services/">El Paso Tree Removal</a></li>
-                        <li><a href="ervotech.site/demo/daniells/services/">Stump Grinding & Removal</a></li>
-                        <li><a href="ervotech.site/demo/daniells/services/">Tree Trimming & Pruning</a></li>
-                        <li><a href="ervotech.site/demo/daniells/services/">Shrub Removal Services</a></li>
+                        <li><a href="demo/daniells/services/">El Paso Tree Removal</a></li>
+                        <li><a href="/demo/daniells/services/">Stump Grinding & Removal</a></li>
+                        <li><a href="/demo/daniells/services/">Tree Trimming & Pruning</a></li>
+                        <li><a href="/demo/daniells/services/">Shrub Removal Services</a></li>
                     </ul>
                 </div>
             </div>

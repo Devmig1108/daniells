@@ -299,11 +299,11 @@ $og_image  = $site_url . "/images/og-image.jpg";
     </nav>
 
     <div class="mobile-drawer" id="mobile-menu">
-        <a href="ervotech.site/demo/daniells/">Home</a>
-        <a href="ervotech.site/demo/daniells/about-us/">Our Story</a>
-        <a href="ervotech.site/demo/daniells/services/">Services</a>
-        <a href="ervotech.site/demo/daniells/gallery/">Portfolio</a>
-        <a href="ervotech.site/demo/daniells/contact/" class="btn-primary" style="margin-top: 20px;">Call (915) 858-0086</a>
+        <a href="/demo/daniells/">Home</a>
+        <a href="/demo/daniells/about-us/">Our Story</a>
+        <a href="/demo/daniells/services/">Services</a>
+        <a href="/demo/daniells/gallery/">Portfolio</a>
+        <a href="/demo/daniells/contact/" class="btn-primary" style="margin-top: 20px;">Call (915) 858-0086</a>
     </div>
 
     <script>
