@@ -286,10 +286,10 @@ $og_image  = $site_url . "/images/og-image.jpg";
             
             <div class="nav-links">
                 <a href="/demo/daniells/">Home</a>
-                <a href="/demo/danniels/about-us/">Our Story</a>
-                <a href="/demo/danniels/services/">Services</a>
-                <a href="/demo/danniels/gallery/">Portfolio</a>
-                <a href="/demo/danniels/contact-us/" class="btn-primary">Contact Us</a>
+                <a href="/demo/danniells/about-us/">Our Story</a>
+                <a href="/demo/danniells/services/">Services</a>
+                <a href="/demo/danniells/gallery/">Portfolio</a>
+                <a href="/demo/danniells/contact-us/" class="btn-primary">Contact Us</a>
             </div>
 
             <button class="hamburger" id="hamburger-btn" aria-label="Menu">
