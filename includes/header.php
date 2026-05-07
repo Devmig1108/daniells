@@ -285,11 +285,11 @@ $og_image  = $site_url . "/images/og-image.jpg";
             </a>
             
             <div class="nav-links">
-                <a href="/">Home</a>
-                <a href="/about-us/">Our Story</a>
-                <a href="/services/">Services</a>
-                <a href="/gallery/">Portfolio</a>
-                <a href="/contact/" class="btn-primary">Call (915) 858-0086</a>
+                <a href="/demo/daniells/">Home</a>
+                <a href="/demo/danniels/about-us/">Our Story</a>
+                <a href="/demo/danniels/services/">Services</a>
+                <a href="/demo/danniels/gallery/">Portfolio</a>
+                <a href="/demo/danniels/contact-us/" class="btn-primary">Contact Us</a>
             </div>
 
             <button class="hamburger" id="hamburger-btn" aria-label="Menu">
@@ -303,7 +303,7 @@ $og_image  = $site_url . "/images/og-image.jpg";
         <a href="/demo/daniells/about-us/">Our Story</a>
         <a href="/demo/daniells/services/">Services</a>
         <a href="/demo/daniells/gallery/">Portfolio</a>
-        <a href="/demo/daniells/contact/" class="btn-primary" style="margin-top: 20px;">Call (915) 858-0086</a>
+        <a href="/demo/daniells/contact-us/" class="btn-primary" style="margin-top: 20px;">Call (915) 858-0086</a>
     </div>
 
     <script>
