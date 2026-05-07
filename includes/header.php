@@ -231,13 +231,14 @@ $og_image  = $site_url . "/images/og-image.jpg";
         .hamburger.active span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
 
         .mobile-drawer {
-            position: fixed; inset: 0; background-color: var(--bg-white); z-index: 1000;
+            position: fixed; top: 0; left: 0; width: 100%; height: 100vh;
+            background-color: var(--bg-white); z-index: 999;
             display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2rem;
-            opacity: 0; pointer-events: none; transition: all 0.4s ease; transform: translateY(-10px);
+            transform: translateY(-100%); transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
         }
 
         .mobile-drawer.active {
-            opacity: 1; pointer-events: auto; transform: translateY(0);
+            transform: translateY(0);
         }
 
         .mobile-drawer a {
@@ -304,3 +305,28 @@ $og_image  = $site_url . "/images/og-image.jpg";
         <a href="/gallery/">Portfolio</a>
         <a href="/contact/" class="btn-primary" style="margin-top: 20px;">Call (915) 858-0086</a>
     </div>
+
+    <script>
+        (function() {
+            const btn = document.getElementById('hamburger-btn');
+            const menu = document.getElementById('mobile-menu');
+            
+            if(btn && menu) {
+                btn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    this.classList.toggle('active');
+                    menu.classList.toggle('active');
+                    document.body.style.overflow = menu.classList.contains('active') ? 'hidden' : '';
+                });
+                
+                const links = menu.querySelectorAll('a');
+                links.forEach(link => {
+                    link.addEventListener('click', () => {
+                        btn.classList.remove('active');
+                        menu.classList.remove('active');
+                        document.body.style.overflow = '';
+                    });
+                });
+            }
+        })();
+    </script>
