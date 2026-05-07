@@ -155,7 +155,7 @@ $og_image  = $site_url . "/images/og-image.jpg";
             align-items: center;
         }
 
-        .brand-logo { text-decoration: none; display: flex; flex-direction: column; }
+        .brand-logo { text-decoration: none; display: flex; flex-direction: column; position: relative; z-index: 1001;}
         .brand-logo .title { font-family: 'Lora', serif; font-size: 1.8rem; font-weight: 600; color: var(--tree-dark); line-height: 1.1; }
         .brand-logo .subtitle { font-family: 'Inter', sans-serif; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 2px; color: var(--tree-accent); font-weight: 600; }
 
@@ -220,9 +220,29 @@ $og_image  = $site_url . "/images/og-image.jpg";
         .footer-col a:hover { color: var(--tree-accent); }
         .footer-bottom { text-align: center; color: #A0B0A8; font-size: 0.85rem; }
 
-        /* Mobile Hamburger */
-        .hamburger { display: none; flex-direction: column; gap: 6px; cursor: pointer; background: none; border: none; }
+        /* =========================================
+           5. MOBILE NAVIGATION STYLES
+           ========================================= */
+        .hamburger { display: none; flex-direction: column; gap: 6px; cursor: pointer; background: none; border: none; position: relative; z-index: 1001; padding: 10px;}
         .hamburger span { width: 30px; height: 2px; background-color: var(--tree-dark); transition: var(--transition); }
+        
+        .hamburger.active span:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+        .hamburger.active span:nth-child(2) { opacity: 0; }
+        .hamburger.active span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+
+        .mobile-drawer {
+            position: fixed; inset: 0; background-color: var(--bg-white); z-index: 1000;
+            display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2rem;
+            opacity: 0; pointer-events: none; transition: all 0.4s ease; transform: translateY(-10px);
+        }
+
+        .mobile-drawer.active {
+            opacity: 1; pointer-events: auto; transform: translateY(0);
+        }
+
+        .mobile-drawer a {
+            font-size: 1.5rem; font-family: 'Lora', serif; font-weight: 500; color: var(--tree-dark); text-decoration: none;
+        }
 
         /* Global Animation Classes */
         .reveal-up { opacity: 0; transform: translateY(40px); transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1); }
@@ -232,7 +252,7 @@ $og_image  = $site_url . "/images/og-image.jpg";
         .load-2 { animation: fadeUp 1s cubic-bezier(0.16, 1, 0.3, 1) 0.2s forwards; }
         .load-3 { animation: fadeUp 1s cubic-bezier(0.16, 1, 0.3, 1) 0.4s forwards; }
 
-        /* Responsive Nav & Footer */
+        /* Responsive Breakpoints */
         @media (max-width: 900px) {
             .utility-strip { display: none; }
             .nav-links { display: none; }
@@ -271,8 +291,16 @@ $og_image  = $site_url . "/images/og-image.jpg";
                 <a href="/contact/" class="btn-primary">Call (915) 858-0086</a>
             </div>
 
-            <button class="hamburger" aria-label="Menu">
+            <button class="hamburger" id="hamburger-btn" aria-label="Menu">
                 <span></span><span></span><span></span>
             </button>
         </div>
     </nav>
+
+    <div class="mobile-drawer" id="mobile-menu">
+        <a href="/">Home</a>
+        <a href="/about-us/">Our Story</a>
+        <a href="/services/">Services</a>
+        <a href="/gallery/">Portfolio</a>
+        <a href="/contact/" class="btn-primary" style="margin-top: 20px;">Call (915) 858-0086</a>
+    </div>
