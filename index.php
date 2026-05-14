@@ -80,7 +80,7 @@ require_once 'includes/header.php';
                 <h1 class="hero-title load-2">Expert Tree Removal & <i>Safe Pruning.</i></h1>
                 <p class="hero-desc load-3">Daniell's Tree Service provides safe, professional, and affordable tree
                     care. From emergency tree removal to routine pruning and stump grinding, we've served El Paso residential and
-                    commercial clients since 1987.</p>
+                    commercial clients since 1976.</p>
                 <div class="hero-actions load-3" style="animation-delay: 0.6s;">
                     <a href="/contact/" class="btn-primary">Free Estimate</a>
                     <a href="/services/" class="btn-outline">View Services</a>
@@ -94,7 +94,7 @@ require_once 'includes/header.php';
             <div class="trust-grid">
                 <div class="trust-card reveal-up">
                     <i class="fas fa-seedling"></i>
-                    <h4>Rooted Since 1987</h4>
+                    <h4>Rooted Since 1976</h4>
                     <p>Decades of specialized experience handling the West Texas climate and local tree species.</p>
                 </div>
                 <div class="trust-card reveal-up" style="transition-delay: 0.1s;">

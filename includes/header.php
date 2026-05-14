@@ -269,7 +269,7 @@ $og_image  = $site_url . "/images/og-image.jpg";
         <div class="utility-container">
             <div class="utility-info">
                 <span><i class="fas fa-map-marker-alt"></i> Proudly serving El Paso, TX</span>
-                <span><i class="fas fa-leaf"></i> Local Tree Experts Since 1987</span>
+                <span><i class="fas fa-leaf"></i> Local Tree Experts Since 1976</span>
             </div>
             <div class="utility-contact">
                 <span><i class="fas fa-phone"></i> (915) 858-0086</span>

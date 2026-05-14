@@ -4,7 +4,7 @@
                 <div class="footer-brand reveal-up">
                     <div class="title">Daniell's</div>
                     <div style="font-family: 'Inter'; text-transform: uppercase; letter-spacing: 2px; font-size: 0.75rem; color: var(--tree-accent); font-weight: 600;">Tree Removal & Pruning</div>
-                    <p>Honesty, integrity, and exceptional tree care services for the greater El Paso area since 1987. Your local tree service experts.</p>
+                    <p>Honesty, integrity, and exceptional tree care services for the greater El Paso area since 1976. Your local tree service experts.</p>
                 </div>
                 <div class="footer-col reveal-up" style="transition-delay: 0.1s;">
                     <h4>Contact Info</h4>

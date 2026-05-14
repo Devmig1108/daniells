@@ -144,7 +144,7 @@ require_once '../includes/header.php';
     <div class="page-hero-content">
         <span class="eyebrow load-1" style="color: var(--tree-accent);">Our Roots</span>
         <h1 class="page-title load-2">Deeply Rooted in <i>El Paso.</i></h1>
-        <p class="hero-desc load-3" style="margin: 0 auto; color: #EAE6DF;">Providing safe, expert, and honest tree care to the Sun City since 1987.</p>
+        <p class="hero-desc load-3" style="margin: 0 auto; color: #EAE6DF;">Providing safe, expert, and honest tree care to the Sun City since 1976.</p>
     </div>
 </section>
 
@@ -178,7 +178,7 @@ require_once '../includes/header.php';
                 Tree removal in West Texas presents unique challenges. High winds, dense neighborhoods, and deeply rooted desert trees require more than just a chainsaw—they require precision, the right equipment, and a profound respect for property safety.
             </p>
             <p style="color: var(--text-muted); font-size: 1.1rem; margin-bottom: 30px;">
-                Since 1987, Daniell's Tree Service has been a staple in the El Paso community. We started with a simple commitment: offer honest assessments, show up on time, and leave the property cleaner than we found it. Decades later, our tools have upgraded, but our core philosophy remains exactly the same.
+                Since 1976, Daniell's Tree Service has been a staple in the El Paso community. We started with a simple commitment: offer honest assessments, show up on time, and leave the property cleaner than we found it. Decades later, our tools have upgraded, but our core philosophy remains exactly the same.
             </p>
             <div class="btn-row">
                 <a href="/contact/" class="btn-primary">Request an Assessment</a>
