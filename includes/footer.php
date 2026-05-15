@@ -2,7 +2,7 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand reveal-up">
-                <img src="images/logo_stump2.png" alt="Pool Service Logo" onerror="this.style.display='none'">
+                <img src="images/logo.png" alt="Pool Service Logo" onerror="this.style.display='none'">
                     <p>Honesty, integrity, and exceptional tree care services for the greater El Paso area since 1976. Your local tree service experts.</p>
                 </div>
                 <div class="footer-col reveal-up" style="transition-delay: 0.1s;">

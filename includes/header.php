@@ -305,6 +305,15 @@ $og_image  = $site_url . "/images/og-image.jpg";
             line-height: 1.8;
         }
 
+        .footer-brand img {
+            max-height: 120px;
+            margin-bottom: 1.5rem;
+            border-radius: 8px;
+            background: white;
+            padding: 5px;
+        }
+
+
         .footer-col h4 {
             color: var(--bg-white);
             font-size: 1.1rem;
