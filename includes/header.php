@@ -35,7 +35,7 @@ $og_image  = $site_url . "/images/og-image.jpg";
             "@context": "https://schema.org",
             "@type": "Arborist",
             "name": "Daniell's Tree Service",
-            "image": "<?php echo $site_url; ?>/images/logo.jpg",
+            "image": "<?php echo $site_url; ?>/images/logo.png",
             "@id": "<?php echo $site_url; ?>",
             "url": "<?php echo $site_url; ?>",
             "telephone": "+1-915-858-0086",
@@ -154,7 +154,6 @@ $og_image  = $site_url . "/images/og-image.jpg";
 
         .nav-header {
             background-color: var(--bg-white);
-            padding: 20px 0;
             position: sticky;
             top: 0;
             z-index: 1000;
@@ -201,8 +200,8 @@ $og_image  = $site_url . "/images/og-image.jpg";
             font-weight: 600;
         }
 
-        .footer-brand img {
-            max-height: 80px;
+        .brand-logo img {
+            max-height: 120px;
             margin-bottom: 1.5rem;
             border-radius: 8px;
             background: white;
@@ -484,7 +483,9 @@ $og_image  = $site_url . "/images/og-image.jpg";
 
     <nav class="nav-header" id="navbar">
         <div class="container nav-wrapper">
-            <img src="images/logo_stump2.png" alt="Pool Service Logo" onerror="this.style.display='none'">
+            <div class="brand-logo">
+                <img src="images/logo.png" alt="Pool Service Logo" onerror="this.style.display='none'">
+            </div>
             <div class="nav-links">
                 <a href="/">Home</a>
                 <a href="/about-us/">Our Story</a>
