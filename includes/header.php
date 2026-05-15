@@ -201,6 +201,14 @@ $og_image  = $site_url . "/images/og-image.jpg";
             font-weight: 600;
         }
 
+        .footer-brand img {
+            max-height: 80px;
+            margin-bottom: 1.5rem;
+            border-radius: 8px;
+            background: white;
+            padding: 5px;
+        }
+
         .nav-links {
             display: flex;
             gap: 35px;
