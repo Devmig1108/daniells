@@ -478,11 +478,11 @@ $og_image  = $site_url . "/images/og-image.jpg";
         <div class="container nav-wrapper">
             <img src="images/logo_stump2.png" alt="Pool Service Logo" onerror="this.style.display='none'">
             <div class="nav-links">
-                <a href="/demo/daniells/">Home</a>
-                <a href="/demo/daniells/about-us/">Our Story</a>
-                <a href="/demo/daniells/services/">Services</a>
-                <a href="/demo/daniells/gallery/">Portfolio</a>
-                <a href="/demo/daniells/contact-us/" class="btn-primary">Contact Us</a>
+                <a href="/">Home</a>
+                <a href="/about-us/">Our Story</a>
+                <a href="/services/">Services</a>
+                <a href="/gallery/">Portfolio</a>
+                <a href="/contact-us/" class="btn-primary">Contact Us</a>
             </div>
 
             <button class="hamburger" id="hamburger-btn" aria-label="Menu">
@@ -492,11 +492,11 @@ $og_image  = $site_url . "/images/og-image.jpg";
     </nav>
 
     <div class="mobile-drawer" id="mobile-menu">
-        <a href="/demo/daniells/">Home</a>
-        <a href="/demo/daniells/about-us/">Our Story</a>
-        <a href="/demo/daniells/services/">Services</a>
-        <a href="/demo/daniells/gallery/">Portfolio</a>
-        <a href="/demo/daniells/contact-us/" class="btn-primary" style="margin-top: 20px;">Call (915) 858-0086</a>
+        <a href="/">Home</a>
+        <a href="/about-us/">Our Story</a>
+        <a href="/services/">Services</a>
+        <a href="/gallery/">Portfolio</a>
+        <a href="/contact-us/" class="btn-primary" style="margin-top: 20px;">Call (915) 858-0086</a>
     </div>
 
     <script>
