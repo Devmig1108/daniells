@@ -2,8 +2,7 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand reveal-up">
-                    <div class="title">Daniell's</div>
-                    <div style="font-family: 'Inter'; text-transform: uppercase; letter-spacing: 2px; font-size: 0.75rem; color: var(--tree-accent); font-weight: 600;">Tree Removal & Pruning</div>
+                <img src="images/logo_stump2.png" alt="Pool Service Logo" onerror="this.style.display='none'">
                     <p>Honesty, integrity, and exceptional tree care services for the greater El Paso area since 1976. Your local tree service experts.</p>
                 </div>
                 <div class="footer-col reveal-up" style="transition-delay: 0.1s;">
