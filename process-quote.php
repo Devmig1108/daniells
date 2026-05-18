@@ -11,7 +11,7 @@ if (!empty($_POST['company_website'])) {
 // 2. Set ZeptoMail Credentials
 $zeptoMailToken = "Zoho-enczapikey wSsVR6118hSjDv0rlDT4I7g+m1oAAF6iQEUoi1D06SX7F//C/cdunkfGDQagGvMZEDJrRzVHrbMvnRpShztY2YgsyQxTXiiF9mqRe1U4J3x17qnvhDzPV2hUkRSPK4kKxQ9rmmRhFsAj+g=="; 
 $verifiedSenderEmail = "info@daniellstreeremoval.com"; 
-$clientRecipientEmail = "test-9qx3htals@srv1.mail-tester.com"; // Or the client's direct email
+$clientRecipientEmail = "miguel@ervotechep.com"; // Or the client's direct email
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
