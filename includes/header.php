@@ -29,7 +29,7 @@ $og_image  = $site_url . "/images/og-image.jpg";
     <meta property="twitter:title" content="<?php echo $seo_title; ?>">
     <meta property="twitter:description" content="<?php echo $seo_desc; ?>">
     <meta property="twitter:image" content="<?php echo $og_image; ?>">
-    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="icon" type="image/png" href="/images/logo.png">
 
     <meta name="google-site-verification" content="K11WVrAhlLW7UPwKSb-fVljZAbfjBNctjEhP5GGgJbM" />
 
