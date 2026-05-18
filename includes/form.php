@@ -8,7 +8,7 @@
 
         <div class="reveal-up" style="max-width: 650px; margin: 0 auto; background: var(--bg-cream); padding: 50px; border-radius: 8px; border: 1px solid var(--border-soft); box-shadow: var(--shadow-soft);">
             
-            <form action="process-quote.php" method="POST" style="display: grid; gap: 20px;">
+            <form action="/process-quote.php" method="POST" style="display: grid; gap: 20px;">
                 
                 <input type="text" name="company_website" style="display:none;" tabindex="-1" autocomplete="off">
 
