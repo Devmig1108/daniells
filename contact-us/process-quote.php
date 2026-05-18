@@ -9,11 +9,9 @@ if (!empty($_POST['company_website'])) {
 }
 
 // 2. Set ZeptoMail Credentials
-// TODO: Replace with the actual token generated for Daniells Tree Removal
-$zeptoMailToken = "Zoho-enczapikey ..."; 
-// TODO: Must be the domain verified in ZeptoMail for this specific client
+$zeptoMailToken = "Zoho-enczapikey wSsVR6118hSjDv0rlDT4I7g+m1oAAF6iQEUoi1D06SX7F//C/cdunkfGDQagGvMZEDJrRzVHrbMvnRpShztY2YgsyQxTXiiF9mqRe1U4J3x17qnvhDzPV2hUkRSPK4kKxQ9rmmRhFsAj+g=="; 
 $verifiedSenderEmail = "info@daniellstreeremoval.com"; 
-$clientRecipientEmail = "test-o9o6dfqua@srv1.mail-tester.com"; // Or the client's direct email
+$clientRecipientEmail = "test-55znx49rl@srv1.mail-tester.com"; // Or the client's direct email
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
@@ -52,7 +50,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     ";
 
     // 5. Prepare ZeptoMail JSON Payload
-    // The "reply_to" array has been removed to prevent the FREEMAIL_FORGED_REPLYTO spam flag
     $postData = [
         "from" => [
             "address" => $verifiedSenderEmail,
@@ -66,6 +63,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 ]
             ]
         ],
+        // The reply_to array has been completely removed to fix the SpamAssassin score
         "subject" => "New Lead: " . $name . " - " . $service,
         "htmlbody" => $htmlBody,
         "textbody" => "New Website Inquiry from {$name}. Phone: {$phone}. Email: {$email}. Service: {$service}. Message: {$message}"
