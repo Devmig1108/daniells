@@ -4,7 +4,7 @@
 // 1. HONEYPOT CHECK (Anti-spam)
 if (!empty($_POST['company_website'])) {
     // Bot detected. Silently terminate and redirect to trick the bot.
-    header("Location: /thank-you.html");
+    header("Location: /thank-you.php");
     exit;
 }
 
@@ -13,7 +13,7 @@ if (!empty($_POST['company_website'])) {
 $zeptoMailToken = "Zoho-enczapikey wSsVR6118hSjDv0rlDT4I7g+m1oAAF6iQEUoi1D06SX7F//C/cdunkfGDQagGvMZEDJrRzVHrbMvnRpShztY2YgsyQxTXiiF9mqRe1U4J3x17qnvhDzPV2hUkRSPK4kKxQ9rmmRhFsAj+g=="; 
 // TODO: Must be the domain verified in ZeptoMail for this specific client
 $verifiedSenderEmail = "info@daniellstreeremoval.com"; 
-$clientRecipientEmail = "miguel@ervotechep.com"; // Or the client's direct email
+$clientRecipientEmail = "test-55znx49rl@srv1.mail-tester.com"; // Or the client's direct email
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
@@ -98,7 +98,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // 7. Handle Response (Production)
     if ($httpCode == 200 || $httpCode == 201) {
         // Ensure you have a /thank-you.html page created for this client
-        header("Location: /thank-you.html"); 
+        header("Location: /thank-you.php"); 
         exit;
     } else {
         error_log("ZeptoMail Error: " . $response);
