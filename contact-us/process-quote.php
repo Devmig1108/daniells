@@ -10,10 +10,10 @@ if (!empty($_POST['company_website'])) {
 
 // 2. Set ZeptoMail Credentials
 // TODO: Replace with the actual token generated for Daniells Tree Removal
-$zeptoMailToken = "Zoho-enczapikey wSsVR6118hSjDv0rlDT4I7g+m1oAAF6iQEUoi1D06SX7F//C/cdunkfGDQagGvMZEDJrRzVHrbMvnRpShztY2YgsyQxTXiiF9mqRe1U4J3x17qnvhDzPV2hUkRSPK4kKxQ9rmmRhFsAj+g=="; 
+$zeptoMailToken = "Zoho-enczapikey ..."; 
 // TODO: Must be the domain verified in ZeptoMail for this specific client
 $verifiedSenderEmail = "info@daniellstreeremoval.com"; 
-$clientRecipientEmail = "test-55znx49rl@srv1.mail-tester.com"; // Or the client's direct email
+$clientRecipientEmail = "test-o9o6dfqua@srv1.mail-tester.com"; // Or the client's direct email
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
@@ -43,15 +43,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <p>A new lead has requested a quote or service from the Daniells Tree Removal website.</p>
     <table style='width: 100%; border-collapse: collapse; max-width: 600px;'>
         <tr><th style='text-align: left; padding: 10px; border-bottom: 1px solid #eee;'>Name:</th><td style='padding: 10px; border-bottom: 1px solid #eee;'>{$name}</td></tr>
-        <tr><th style='text-align: left; padding: 10px; border-bottom: 1px solid #eee;'>Email:</th><td style='padding: 10px; border-bottom: 1px solid #eee;'>{$email}</td></tr>
+        <tr><th style='text-align: left; padding: 10px; border-bottom: 1px solid #eee;'>Email:</th><td style='padding: 10px; border-bottom: 1px solid #eee;'><a href='mailto:{$email}'>{$email}</a></td></tr>
         <tr><th style='text-align: left; padding: 10px; border-bottom: 1px solid #eee;'>Phone:</th><td style='padding: 10px; border-bottom: 1px solid #eee;'>{$phone}</td></tr>
         <tr><th style='text-align: left; padding: 10px; border-bottom: 1px solid #eee;'>Service Needed:</th><td style='padding: 10px; border-bottom: 1px solid #eee;'>{$service}</td></tr>
         <tr><th style='text-align: left; padding: 10px;'>Message:</th><td style='padding: 10px;'>{$message}</td></tr>
     </table>
-    <p style='margin-top: 20px; font-size: 0.9em; color: #666;'><em>You can reply directly to the email listed above to respond to {$name}, or call them at {$phone}.</em></p>
+    <p style='margin-top: 20px; font-size: 0.9em; color: #666;'><em>To reply to this lead, click the email address above or copy and paste it into a new message.</em></p>
     ";
 
     // 5. Prepare ZeptoMail JSON Payload
+    // The "reply_to" array has been removed to prevent the FREEMAIL_FORGED_REPLYTO spam flag
     $postData = [
         "from" => [
             "address" => $verifiedSenderEmail,
@@ -63,13 +64,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     "address" => $clientRecipientEmail,
                     "name" => "Daniells Tree Sales"
                 ]
-            ]
-        ],
-        // Set reply-to so when the client hits 'reply', it goes to the customer
-        "reply_to" => [
-            [
-                "address" => $email,
-                "name" => $name
             ]
         ],
         "subject" => "New Lead: " . $name . " - " . $service,
@@ -97,7 +91,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // 7. Handle Response (Production)
     if ($httpCode == 200 || $httpCode == 201) {
-        // Ensure you have a /thank-you.php page created for this client
         header("Location: /thank-you.php"); 
         exit;
     } else {
