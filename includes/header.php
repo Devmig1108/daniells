@@ -31,6 +31,8 @@ $og_image  = $site_url . "/images/og-image.jpg";
     <meta property="twitter:image" content="<?php echo $og_image; ?>">
     <link rel="icon" type="image/png" href="images/logo.png">
 
+    <meta name="google-site-verification" content="K11WVrAhlLW7UPwKSb-fVljZAbfjBNctjEhP5GGgJbM" />
+
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
