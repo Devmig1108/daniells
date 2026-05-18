@@ -97,7 +97,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // 7. Handle Response (Production)
     if ($httpCode == 200 || $httpCode == 201) {
-        // Ensure you have a /thank-you.html page created for this client
+        // Ensure you have a /thank-you.php page created for this client
         header("Location: /thank-you.php"); 
         exit;
     } else {
