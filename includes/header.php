@@ -496,7 +496,7 @@ $og_image  = $site_url . "/images/og-image.jpg";
     <nav class="nav-header" id="navbar">
         <div class="container nav-wrapper">
             <div class="brand-logo">
-                <img src="images/logo.png" alt="Pool Service Logo" onerror="this.style.display='none'">
+                <img src="/images/logo.png" alt="Pool Service Logo" onerror="this.style.display='none'">
             </div>
             <div class="nav-links">
                 <a href="/">Home</a>
