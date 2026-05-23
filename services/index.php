@@ -51,7 +51,6 @@ require_once '../includes/header.php';
                 <p>Removing a tree, especially one that is dead, diseased, or situated near your home, is highly dangerous work that requires heavy-duty machinery and precise rigging.</p>
                 <p>We are El Paso's specialists in tight-space and hazardous tree teardowns. We utilize advanced safety protocols to dismantle trees piece-by-piece, ensuring zero damage to your roof, fencing, or surrounding landscaping.</p>
                 <ul class="service-features">
-                    <li><i class="fas fa-check-circle"></i> Emergency hazard tree removal</li>
                     <li><i class="fas fa-check-circle"></i> Dead or diseased tree extraction</li>
                     <li><i class="fas fa-check-circle"></i> Safe teardowns near power lines and structures</li>
                 </ul>
@@ -120,7 +119,7 @@ require_once '../includes/header.php';
             </div>
             <div class="process-step reveal-up" style="transition-delay: 0.1s;">
                 <h4>2. Safe Execution</h4>
-                <p>Our licensed team arrives on time with the right machinery, prioritizing the safety of your property throughout the job.</p>
+                <p>Our team arrives on time with the right machinery, prioritizing the safety of your property throughout the job.</p>
             </div>
             <div class="process-step reveal-up" style="transition-delay: 0.2s;">
                 <h4>3. Immaculate Cleanup</h4>

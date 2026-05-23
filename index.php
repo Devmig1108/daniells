@@ -79,7 +79,7 @@ require_once 'includes/header.php';
                 <span class="hero-label load-1">El Paso Tree Service Professionals</span>
                 <h1 class="hero-title load-2">Expert Tree Removal & <i>Safe Pruning.</i></h1>
                 <p class="hero-desc load-3">Daniell's Tree Service provides safe, professional, and affordable tree
-                    care. From emergency tree removal to routine pruning and stump grinding, we've served El Paso residential and
+                    care. From complete tree removal to routine pruning and stump grinding, we've served El Paso residential and
                     commercial clients since 1976.</p>
                 <div class="hero-actions load-3" style="animation-delay: 0.6s;">
                     <a href="/contact/" class="btn-primary">Free Estimate</a>
@@ -99,7 +99,7 @@ require_once 'includes/header.php';
                 </div>
                 <div class="trust-card reveal-up" style="transition-delay: 0.1s;">
                     <i class="fas fa-handshake"></i>
-                    <h4>Licensed & Honest</h4>
+                    <h4>Honest Professionals</h4>
                     <p>We pride ourselves on safe tree cutting, quality arborist work, and transparent pricing.</p>
                 </div>
                 <div class="trust-card reveal-up" style="transition-delay: 0.2s;">
@@ -142,7 +142,7 @@ require_once 'includes/header.php';
                 <span>What We Do</span>
                 <h2>Comprehensive Tree Services in El Paso, TX</h2>
                 <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto;">From seasonal trimming to
-                    emergency hazard removals, our experienced tree cutters are equipped to handle projects of any scale
+                    complete hazard removals, our experienced tree cutters are equipped to handle projects of any scale
                     safely and affordably.</p>
             </div>
 

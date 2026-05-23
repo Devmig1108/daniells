@@ -29,7 +29,6 @@
                     <option value="Tree Removal">Tree Removal</option>
                     <option value="Tree Pruning & Trimming">Tree Pruning & Trimming</option>
                     <option value="Stump Grinding">Stump Grinding</option>
-                    <option value="Emergency Service">Emergency Storm Service</option>
                 </select>
 
                 <textarea name="message" placeholder="Describe the job (e.g., Tree location, size, access restrictions)..." rows="4" 

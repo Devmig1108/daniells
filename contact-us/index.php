@@ -125,7 +125,7 @@ require_once '../includes/header.php';
         <div class="contact-info-panel reveal-up">
             <span class="eyebrow">Get In Touch</span>
             <h2>Talk to a local tree expert.</h2>
-            <p>Whether you have an emergency removal or just need a routine seasonal trim, Daniell's Tree Service provides honest advice and free on-site assessments.</p>
+            <p>Whether you have a complete removal or just need a routine seasonal trim, Daniell's Tree Service provides honest advice and free on-site assessments.</p>
 
             <div class="contact-method">
                 <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
@@ -147,7 +147,7 @@ require_once '../includes/header.php';
                 <div class="contact-icon"><i class="fas fa-clock"></i></div>
                 <div class="contact-text">
                     <h4>Availability</h4>
-                    <span>Mon - Sun: 24/7 Emergency Service</span>
+                    <span>Mon - Sun Upon Request</span>
                 </div>
             </div>
         </div>
