@@ -167,7 +167,9 @@ require_once '../includes/header.php';
         </div>
         <div class="map-wrapper reveal-up">
             <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m10!1m3!1d108528.26194468644!2d-106.51614741490214!3d31.810574044195155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e73f8bc5fe3b6d%3A0x6d90060938da64!2sEl%20Paso%2C%20TX!5e0!3m2!1sen!2sus!4v1714412345678!5m2!1sen!2sus" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108528.26194468644!2d-106.51614741490214!3d31.810574044195155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e73f8bc5fe3b6d%3A0x6d90060938da64!2sEl%20Paso%2C%20TX!5e0!3m2!1sen!2sus!4v1714412345678!5m2!1sen!2sus" 
+                width="600"
+                height="450"
                 style="border:0;" 
                 allowfullscreen="" 
                 loading="lazy" 
