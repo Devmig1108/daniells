@@ -57,7 +57,7 @@ require_once 'includes/header.php';
             <div class="thank-you-content reveal-up">
                 <i class="fas fa-check-circle thank-you-icon"></i>
                 <h1>Request Received!</h1>
-                <p>Thank you for reaching out to Daniell's Tree Service. We have received your project details, and one of our arborists will be in touch with you shortly to discuss your free estimate.</p>
+                <p>Thank you for reaching out to Daniell's Tree Service. We have received your project details, and one of our team members will be in touch with you shortly to discuss your free estimate.</p>
                 <a href="/" class="btn-primary" style="display: inline-block; padding: 16px 32px; font-size: 1rem;">Return to Homepage</a>
             </div>
         </div>

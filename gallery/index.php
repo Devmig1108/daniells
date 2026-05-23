@@ -292,7 +292,7 @@ require_once '../includes/header.php';
 
         <div class="masonry-grid">
             <div class="masonry-item tall reveal-up">
-                <img src="../images/owner.jpg" alt="Arborist climbing a ladder for tree pruning">
+                <img src="../images/owner.jpg" alt="Climbing a ladder for tree pruning">
                 <div class="item-caption">
                     <h4>Precision Pruning</h4>
                     <p>Safe access and expert cuts.</p>

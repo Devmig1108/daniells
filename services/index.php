@@ -37,7 +37,7 @@ require_once '../includes/header.php';
     <div class="page-hero-content">
         <span class="eyebrow load-1" style="color: var(--tree-accent);">Our Expertise</span>
         <h1 class="page-title load-2">Comprehensive <i>Tree Care.</i></h1>
-        <p class="hero-desc load-3">From hazardous teardowns to seasonal pruning, our licensed arborists deliver safe, efficient solutions tailored to the West Texas environment.</p>
+        <p class="hero-desc load-3">From hazardous teardowns to seasonal pruning, our experts deliver safe, efficient solutions tailored to the West Texas environment.</p>
     </div>
 </section>
 
@@ -80,7 +80,7 @@ require_once '../includes/header.php';
                 <div class="service-number">03</div>
                 <h2>Tree Trimming & Pruning</h2>
                 <p>Proper pruning is essential for the long-term health, structural integrity, and aesthetic beauty of your trees. Bad cuts can permanently damage or kill native El Paso species.</p>
-                <p>Our experienced arborists know exactly where and how to cut. We perform crown thinning to allow light penetration, deadwooding to remove dangerous branches, and structural pruning to keep branches safely away from your roof and utility lines.</p>
+                <p>Our experienced experts know exactly where and how to cut. We perform crown thinning to allow light penetration, deadwooding to remove dangerous branches, and structural pruning to keep branches safely away from your roof and utility lines.</p>
                 <ul class="service-features">
                     <li><i class="fas fa-check-circle"></i> Crown thinning, lifting, and deadwooding</li>
                     <li><i class="fas fa-check-circle"></i> Clearance pruning for roofs and utility lines</li>

@@ -147,7 +147,7 @@ require_once '../includes/header.php';
                 <div class="contact-icon"><i class="fas fa-clock"></i></div>
                 <div class="contact-text">
                     <h4>Availability</h4>
-                    <span>Mon - Sun Upon Request</span>
+                    <span>Mon - Sat: 9am - 4pm</span>
                 </div>
             </div>
         </div>

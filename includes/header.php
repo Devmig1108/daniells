@@ -36,7 +36,7 @@ $og_image  = $site_url . "/images/og-image.jpg";
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
-            "@type": "Arborist",
+            "@type": "Landscaper",
             "name": "Daniell's Tree Service",
             "image": "<?php echo $site_url; ?>/images/logo.png",
             "@id": "<?php echo $site_url; ?>",

@@ -100,7 +100,7 @@ require_once 'includes/header.php';
                 <div class="trust-card reveal-up" style="transition-delay: 0.1s;">
                     <i class="fas fa-handshake"></i>
                     <h4>Honest Professionals</h4>
-                    <p>We pride ourselves on safe tree cutting, quality arborist work, and transparent pricing.</p>
+                    <p>We pride ourselves on safe tree cutting, quality work, and transparent pricing.</p>
                 </div>
                 <div class="trust-card reveal-up" style="transition-delay: 0.2s;">
                     <i class="fas fa-shield-alt"></i>
@@ -114,7 +114,7 @@ require_once 'includes/header.php';
     <section id="about" class="about-section">
         <div class="container about-grid">
             <div class="about-images reveal-up">
-                <img src="images/owner.jpg" alt="Arborist cutting tree branches" class="img-main">
+                <img src="images/owner.jpg" alt="Cutting tree branches" class="img-main">
                 <img src="images/palm.jpg" alt="Tree stump in the ground" class="img-sub">
             </div>
             <div class="about-content reveal-up" style="transition-delay: 0.2s;">

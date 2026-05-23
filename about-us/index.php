@@ -211,7 +211,7 @@ require_once '../includes/header.php';
             </div>
             <div class="value-item reveal-up" style="transition-delay: 0.2s;">
                 <i class="fas fa-leaf"></i>
-                <h3>Local Arborist Knowledge</h3>
+                <h3>Local Knowledge</h3>
                 <p>We understand the specific diseases, root structures, and pruning needs of Afghan Pines, Mulberrys, and native desert trees in the borderland.</p>
             </div>
         </div>
