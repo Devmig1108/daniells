@@ -128,7 +128,7 @@ require_once 'includes/header.php';
                     brings the right equipment to get the job done without damaging your property.</p>
 
                 <ul class="value-list">
-                    <li class="reveal-up"><i class="fas fa-check"></i> Free On-Site Tree Assessments</li>
+                    <li class="reveal-up"><i class="fas fa-check"></i> Free Estimates</li>
                     <li class="reveal-up" style="transition-delay: 0.1s;"><i class="fas fa-check"></i> Residential & Commercial Tree Care</li>
                     <li class="reveal-up" style="transition-delay: 0.2s;"><i class="fas fa-check"></i> Clean, Efficient Debris & Branch Removal</li>
                 </ul>

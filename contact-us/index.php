@@ -125,7 +125,7 @@ require_once '../includes/header.php';
         <div class="contact-info-panel reveal-up">
             <span class="eyebrow">Get In Touch</span>
             <h2>Talk to a local tree expert.</h2>
-            <p>Whether you have a complete removal or just need a routine seasonal trim, Daniell's Tree Service provides honest advice and free on-site assessments.</p>
+            <p>Whether you have a complete removal or just need a routine seasonal trim, Daniell's Tree Service provides honest advice and free on-site estimates.</p>
 
             <div class="contact-method">
                 <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
