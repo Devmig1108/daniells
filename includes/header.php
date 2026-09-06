@@ -1,10 +1,10 @@
 <?php
 // Dynamic SEO Variables (Defaults if not set on the individual page)
 $seo_title = $page_title ?? "El Paso Tree Removal & Pruning Services | Daniell's Tree Service";
-$seo_desc  = $page_desc ?? "Looking for expert tree removal in El Paso, TX? Daniell's Tree Service offers top-rated tree and shrub removal, stump grinding, and safe tree trimming. Call (915) 858-0086!";
-$site_url  = "https://www.daniellstreeservice.com"; // Replace with actual domain
+$seo_desc = $page_desc ?? "Looking for expert tree removal in El Paso, TX? Daniell's Tree Service offers top-rated tree and shrub removal, stump grinding, and safe tree trimming. Call (915) 858-0086!";
+$site_url = "https://www.daniellstreeservice.com"; // Replace with actual domain
 $current_url = $site_url . $_SERVER['REQUEST_URI'];
-$og_image  = $site_url . "/images/og-image.jpg";
+$og_image = $site_url . "/images/og-image.jpg";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -67,7 +67,9 @@ $og_image  = $site_url . "/images/og-image.jpg";
         }
     </script>
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <style>
@@ -477,6 +479,10 @@ $og_image  = $site_url . "/images/og-image.jpg";
             }
         }
     </style>
+    <link rel="preconnect" href="https://challenges.cloudflare.com">
+
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer>
+    </script>
 </head>
 
 <body>
@@ -521,12 +527,12 @@ $og_image  = $site_url . "/images/og-image.jpg";
     </div>
 
     <script>
-        (function() {
+        (function () {
             const btn = document.getElementById('hamburger-btn');
             const menu = document.getElementById('mobile-menu');
 
             if (btn && menu) {
-                btn.addEventListener('click', function(e) {
+                btn.addEventListener('click', function (e) {
                     e.preventDefault();
                     this.classList.toggle('active');
                     menu.classList.toggle('active');
